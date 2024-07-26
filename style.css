@@ -1,0 +1,79 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(176, 226, 176);
+    padding-top: 10px;
+
+}
+
+main {
+    display: flex;
+    min-width: 200px;
+    padding: 8px;
+}
+
+
+.right {
+    flex: 2;
+    margin: 10px 10px;
+    border: solid black 2px;
+    height: 100px;
+    padding: 10px 10px;
+}
+
+.right>button {
+    background-color: rgb(34, 153, 38);
+    border: 2px solid rgb(0, 0, 0);
+    width: 300px;
+    height: 35px;
+    color: white;
+    box-shadow: 3px 3px 4px rgba(0,0,0,0.5);
+}
+
+
+section{
+    margin: 10px 10px;
+    border: solid black 3px;
+    padding: 10px 10px;
+    margin-left: 4px;
+}
+
+.perro>button {
+    background-color: rgb(251, 245, 131);
+    border: 2px solid rgb(0, 0, 0);
+    box-shadow: 3px 3px 4px rgba(0,0,0,0.5);
+}
+
+.gato>button {
+    background-color: rgb(251, 245, 131);
+    border: 2px solid rgb(0, 0, 0);
+    box-shadow: 3px 3px 4px rgba(0,0,0,0.5);
+}
+
+#toggleInOut {
+    background-color: rgb(0, 126, 237);
+    border: 2px solid rgb(0, 0, 0);
+    width: 150px;
+    height: 50px;
+    box-shadow: 3px 3px 4px rgba(0,0,0,0.5);
+    color: white;  
+    margin: 10px 20px;
+   
+    
+}
+
+input{
+    background-color: rgb(255, 255, 255);
+    border: 2px solid rgb(0, 0, 0);
+    width: 1000px;
+    height: 40px;
+    color: rgb(87, 87, 87); 
+    margin: 10px 10px;
+
+}
+
+h1{
+    margin-left: 10px;
+}
+
+
